@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/status-cats.css" />
+    </head>
+    <body>
+        <h1>HTTP 404 - Not found</h1>
+        <p>
+            <b>Path: <!--#echo var="REQUEST_URI"--></b>
+        </p>
+        <p>
+            <img src="/status-cats-images/404.jpg" />
+        </p>
+    </body>
+</html>

@@ -1,0 +1,5 @@
+RedirectMatch 401 /status-cats-demo/401
+RedirectMatch 403 /status-cats-demo/403
+RedirectMatch 404 /status-cats-demo/404
+RedirectMatch 500 /status-cats-demo/500
+RedirectMatch 503 /status-cats-demo/503

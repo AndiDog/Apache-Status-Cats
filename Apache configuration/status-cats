@@ -1,0 +1,17 @@
+# Make sure mod_include is activated (execute "a2enmod include")
+<IfModule !mod_include.c>
+    "Error: Must enable mod_include!"
+</IfModule>
+
+<Directory /var/www/status-cats-errors>
+    Options +Includes IncludesNOEXEC
+
+    AddType text/html .shtml
+    AddOutputFilter INCLUDES .shtml
+</Directory>
+
+ErrorDocument 401 /status-cats-errors/401.shtml
+ErrorDocument 403 /status-cats-errors/403.shtml
+ErrorDocument 404 /status-cats-errors/404.shtml
+ErrorDocument 500 /status-cats-errors/500.shtml
+ErrorDocument 503 /status-cats-errors/503.shtml

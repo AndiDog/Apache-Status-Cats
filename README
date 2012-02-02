@@ -1,0 +1,8 @@
+This project contains Apache 2.x (for *nix) compatible error pages using the awesome HTTP status cats.
+
+Note: The pictures are taken from GirlieMac (Flickr: https://secure.flickr.com/photos/girliemac/sets/72157628409467125/) and licensed under the CC Attribution license (https://creativecommons.org/licenses/by/2.0/deed.en).
+
+Under "Alternative status cats" you will find replacement pictures if you don't like the originals. For example, I really like the 503 picture of StackOverflow. Don't know about the license though (see http://blog.stackoverflow.com/2010/06/workin-on-ur-problemz/, quote: "I originally found this image in some random image search"), so instead of the picture itself, I added a download script.
+
+I put the rest of the files under the CC Attribution license (see link above). Please share and let people know where you have this from.
+-- Andreas Sommer a.k.a. AndiDog

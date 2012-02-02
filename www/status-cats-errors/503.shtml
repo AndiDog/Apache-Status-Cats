@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/status-cats.css" />
+    </head>
+    <body>
+        <h1>HTTP 503 - Service unavailable</h1>
+        <p>
+            <b>Path: <!--#echo var="REQUEST_URI"--></b>
+        </p>
+        <p>
+            <img src="/status-cats-images/503.jpg" />
+        </p>
+    </body>
+</html>

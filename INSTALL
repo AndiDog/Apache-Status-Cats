@@ -1,0 +1,7 @@
+Make sure you have a *nix system and Apache 2.x installed with "/var/www" as the document root (default on Debian/Ubuntu-based systems). Else you will have to adapt the config files.
+
+Copy the file "status-cats" from "Apache configuration" to "/etc/apache2/conf.d" and execute "service apache2 restart" (as root). Then copy the folder contents of "www" to "/var/www", overwriting the Apache standard "index.html" file.
+
+Have fun!
+
+If you want to install the demo as well, copy "Apache configuration/status-cats-demo" to "/etc/apache/conf.d" (and restart Apache). Then copy the folder "status-cats-demo" into "/var/www" so that it is now "/var/www/status-cats-demo".
