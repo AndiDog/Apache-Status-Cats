@@ -1,3 +1,4 @@
+RedirectMatch 400 /status-cats-demo/400
 RedirectMatch 401 /status-cats-demo/401
 RedirectMatch 403 /status-cats-demo/403
 RedirectMatch 404 /status-cats-demo/404

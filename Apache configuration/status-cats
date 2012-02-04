@@ -10,6 +10,7 @@
     AddOutputFilter INCLUDES .shtml
 </Directory>
 
+ErrorDocument 400 /status-cats-errors/400.shtml
 ErrorDocument 401 /status-cats-errors/401.shtml
 ErrorDocument 403 /status-cats-errors/403.shtml
 ErrorDocument 404 /status-cats-errors/404.shtml
